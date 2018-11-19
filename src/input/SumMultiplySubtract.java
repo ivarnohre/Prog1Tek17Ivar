@@ -6,10 +6,11 @@ public class SumMultiplySubtract {
 
 	public static void main(String[] args) {
 		Scanner inputScanner = new Scanner(System.in);
+		System.out.print("Input the first number: ");
 		int x = inputScanner.nextInt();
-		System.out.println(x);
+		System.out.print("Input the second number: ");
 		int y = inputScanner.nextInt();
-		System.out.println(y);
+		
 		
 		System.out.println("x + y = " + (x + y));
 		System.out.println("x - y = " + (x - y));
