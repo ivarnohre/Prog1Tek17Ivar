@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CompareTwoNumbers {
 
 	public static void main(String[] args) {
-
+        //This program takes two ints from scanner and compares them
 		Scanner scanner1 = new Scanner(System.in);
 		System.out.print("Input first number: ");
 		int n1 = scanner1.nextInt();
