@@ -8,7 +8,7 @@ public class RandomInteger {
 		
 		Random random = new Random();
 		
-		int n = random.nextInt(50) + 1;
+		int n = random.nextInt(500) + 200;
 		
 		System.out.println(n);
 
