@@ -4,14 +4,16 @@ public class OddNumbers {
 
 	public static void main(String[] args) {
 
-		int oddnumber = 1;
+		int i = 0;
 		
-		while(oddnumber <= 100) {
-			System.out.println(oddnumber ++ * 2 - 1 ); {
-			if(oddnumber == 51) {
-				break;
+		while(i <= 100) {
+			i = i + 1;
+			if (i % 2 == 1) {
+				System.out.println(i);
+			
 			}
-	
+	if(i == 100) {
+		break;
 			 
 			
 		  }
