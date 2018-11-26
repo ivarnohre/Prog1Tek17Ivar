@@ -3,7 +3,10 @@ package functions;
 import java.util.Scanner;
 
 public class Uppgift1Funktioner {
-
+    /**
+     * Runs function smallestAmongThree
+     * @param args
+     */
 	public static void main(String[] args) {
 		
 		smallestAmongThree(input());
@@ -12,7 +15,10 @@ public class Uppgift1Funktioner {
 	}
 	
 	 
-
+    /**
+     * For scanners/input
+     * @return
+     */
 	public static int[]  input() {
 		
 		Scanner scanner = new Scanner(System.in);
@@ -25,7 +31,10 @@ public class Uppgift1Funktioner {
 		inputs[2] = scanner.nextInt();
 		return inputs;
 	}
-	
+	/**
+	 * This is the function for sorting and finding the smallest number
+	 * @param inputs
+	 */
 	public static void smallestAmongThree(int[] inputs) {
 		int tempVar;
 		if (inputs[0] < inputs[1]) {

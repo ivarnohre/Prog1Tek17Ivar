@@ -3,14 +3,20 @@ package functions;
 import java.util.Scanner;
 
 public class Uppgift1Funktioner2 {
-
+    /**
+     * Runs the LargestAmongThree function
+     * @param args
+     */
 	public static void main(String[] args) {
 		
 		largestAmongThree(input());
 		
 
 	}
-	
+	/**
+	 * For input/scanners
+	 * @return
+	 */
 public static int[]  input() {
 		
 		Scanner scanner = new Scanner(System.in);
@@ -23,7 +29,10 @@ public static int[]  input() {
 		inputs[2] = scanner.nextInt();
 		return inputs;
 	}
-	
+	/**
+	 * Sorts and gets the largest number
+	 * @param inputs
+	 */
 	public static void largestAmongThree(int[] inputs) {
 		int tempVar;
 		if (inputs[0] > inputs[1]) {
