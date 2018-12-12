@@ -3,7 +3,10 @@ package loops;
 import java.util.Scanner;
 
 public class ExtractDigits {
-
+ /**
+  * This program will extract digits from a multi digit integer.
+  * @param args
+  */
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
