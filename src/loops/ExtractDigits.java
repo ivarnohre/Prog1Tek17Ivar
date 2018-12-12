@@ -15,8 +15,8 @@ public class ExtractDigits {
 		int n = scanner.nextInt();
 		
 		while (n > 0) {
-			int digit = n % 10;
-			n = n / 10;
+			int digit = n % 10; // extracts digit by using remainder
+			n = n / 10; //moves position to extract next number
 			System.out.println(digit);
 		}
         

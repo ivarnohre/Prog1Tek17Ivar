@@ -1,7 +1,10 @@
 package loops;
 
 public class For35 {
-
+ /**
+  * this program shows all numbers divsible by 3 or 5 between 1 and 100
+  * @param args
+  */
 	public static void main(String[] args) {
 		int three = 3;
 		int five = 5;
