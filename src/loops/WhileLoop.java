@@ -7,9 +7,9 @@ public class WhileLoop {
 	public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 		while (true) {
-			System.out.println("Enter a number: ");
+			System.out.print("Enter a number: ");
 			double number1 = scanner.nextDouble();
-			System.out.println("Enter a number: ");
+			System.out.print("Enter a number: ");
 			double number2 = scanner.nextDouble();
 			
 			System.out.println(number1 + " * " + number2 + " = " + number1 * number2);
